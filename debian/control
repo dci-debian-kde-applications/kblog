@@ -1,0 +1,64 @@
+Source: kblog
+Section: libs
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake (>= 2.8.12~),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 5.12.0~),
+               kio-dev,
+               libkf5calendarcore-dev,
+               libkf5coreaddons-dev,
+               libkf5kdelibs4support-dev,
+               libkf5syndication-dev,
+               libkf5xmlrpcclient-dev,
+               libqt5webkit5-dev,
+               pkg-kde-tools (>> 0.15.15),
+               qtbase5-dev
+Standards-Version: 3.9.6
+XS-Testsuite: autopkgtest
+Homepage: https://projects.kde.org/projects/kde/pim/kblog
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/kblog.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kblog.git
+
+Package: libkf5blog-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: foreign
+Depends: libkf5blog5 (= ${binary:Version}), ${misc:Depends}
+Description: kblog - development files
+ KBlog is a library for calling functions on Blogger 1.0, MetaWeblog,
+ MovableType and GData compatible blogs. It calls the APIs using KXmlRpcClient
+ and Syndication. It supports asynchronous sending and fetching of posts and,
+ if supported on the server, multimedia files. Almost every modern blogging web
+ application that provides an XML data interface supports one of the APIs
+ mentioned above.
+ .
+ This package contains the development files.
+
+Package: libkf5blog5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: client-side support library for web application remote blogging APIs
+ KBlog is a library for calling functions on Blogger 1.0, MetaWeblog,
+ MovableType and GData compatible blogs. It calls the APIs using KXmlRpcClient
+ and Syndication. It supports asynchronous sending and fetching of posts and,
+ if supported on the server, multimedia files. Almost every modern blogging web
+ application that provides an XML data interface supports one of the APIs
+ mentioned above.
+
+Package: libkf5blog-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Multi-Arch: same
+Depends: libkf5blog5 (= ${binary:Version}), ${misc:Depends}
+Description: kblog - debug symbols
+ KBlog is a library for calling functions on Blogger 1.0, MetaWeblog,
+ MovableType and GData compatible blogs. It calls the APIs using KXmlRpcClient
+ and Syndication. It supports asynchronous sending and fetching of posts and,
+ if supported on the server, multimedia files. Almost every modern blogging web
+ application that provides an XML data interface supports one of the APIs
+ mentioned above.
+ .
+ This package contains the debug symbols.
