@@ -5,12 +5,12 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.12.0~),
-               kio-dev,
-               libkf5calendarcore-dev,
-               libkf5coreaddons-dev,
-               libkf5kdelibs4support-dev,
+               kio-dev (>= 5.12.0~),
+               libkf5calendarcore-dev (>= 4.79.0~),
+               libkf5coreaddons-dev (>= 5.12.0~),
+               libkf5kdelibs4support-dev (>= 5.12.0~),
                libkf5syndication-dev,
-               libkf5xmlrpcclient-dev,
+               libkf5xmlrpcclient-dev (>= 4.79.0~),
                libqt5webkit5-dev,
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev
@@ -25,8 +25,8 @@ Section: libdevel
 Architecture: any
 Multi-Arch: foreign
 Depends: libkf5blog5 (= ${binary:Version}),
-         libkf5calendarcore-dev,
-         libkf5kdelibs4support-dev,
+         libkf5calendarcore-dev (>= 4.79.0~),
+         libkf5kdelibs4support-dev (>= 5.12.0~),
          libkf5syndication-dev,
          ${misc:Depends}
 Description: kblog - development files
