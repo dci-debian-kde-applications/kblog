@@ -1,0 +1,6 @@
+usr/include/KF5/KBlog/KBlog/
+usr/include/KF5/KBlog/kblog/
+usr/include/KF5/kblog_version.h
+usr/lib/*/cmake/KF5Blog/
+usr/lib/*/libKF5Blog.so
+usr/lib/*/qt5/mkspecs/modules/qt_KBlog.pri
