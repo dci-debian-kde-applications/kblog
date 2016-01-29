@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12.0 amd64 i386
+# SymbolsHelper-Confirmed: 15.12.0 amd64
 libKF5Blog.so.5 libkf5blog5 #MINVER#
  _ZN5KBlog10MetaWeblog11createMediaEPNS_9BlogMediaE@Base 15.07.90
  _ZN5KBlog10MetaWeblog11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
@@ -16,8 +16,8 @@ libKF5Blog.so.5 libkf5blog5 #MINVER#
  _ZN5KBlog10MetaWeblogD2Ev@Base 15.07.90
  _ZN5KBlog11BlogComment10setContentERK7QString@Base 15.07.90
  _ZN5KBlog11BlogComment12setCommentIdERK7QString@Base 15.07.90
- _ZN5KBlog11BlogComment19setCreationDateTimeERK9QDateTime@Base 4:15.12.0
- _ZN5KBlog11BlogComment23setModificationDateTimeERK9QDateTime@Base 4:15.12.0
+ _ZN5KBlog11BlogComment19setCreationDateTimeERK9QDateTime@Base 15.12.0
+ _ZN5KBlog11BlogComment23setModificationDateTimeERK9QDateTime@Base 15.12.0
  _ZN5KBlog11BlogComment6setUrlERK4QUrl@Base 15.07.90
  _ZN5KBlog11BlogComment7setNameERK7QString@Base 15.07.90
  _ZN5KBlog11BlogComment8setEmailERK7QString@Base 15.07.90
@@ -67,7 +67,7 @@ libKF5Blog.so.5 libkf5blog5 #MINVER#
  _ZN5KBlog4Blog11qt_metacastEPKc@Base 15.07.90
  _ZN5KBlog4Blog11removedPostEPNS_8BlogPostE@Base 15.07.90
  _ZN5KBlog4Blog11setPasswordERK7QString@Base 15.07.90
- _ZN5KBlog4Blog11setTimeZoneERK9QTimeZone@Base 4:15.12.0
+ _ZN5KBlog4Blog11setTimeZoneERK9QTimeZone@Base 15.12.0
  _ZN5KBlog4Blog11setUsernameERK7QString@Base 15.07.90
  _ZN5KBlog4Blog12errorCommentENS0_9ErrorTypeERK7QStringPNS_8BlogPostEPNS_11BlogCommentE@Base 15.07.90
  _ZN5KBlog4Blog12modifiedPostEPNS_8BlogPostE@Base 15.07.90
@@ -102,7 +102,7 @@ libKF5Blog.so.5 libkf5blog5 #MINVER#
  _ZN5KBlog5GData14listedCommentsEPNS_8BlogPostERK5QListINS_11BlogCommentEE@Base 15.07.90
  _ZN5KBlog5GData14removedCommentEPKNS_8BlogPostEPKNS_11BlogCommentE@Base 15.07.90
  _ZN5KBlog5GData15listAllCommentsEv@Base 15.07.90
- _ZN5KBlog5GData15listRecentPostsERK11QStringListiRK9QDateTimeS6_S6_S6_@Base 4:15.12.0
+ _ZN5KBlog5GData15listRecentPostsERK11QStringListiRK9QDateTimeS6_S6_S6_@Base 15.12.0
  _ZN5KBlog5GData15listRecentPostsEi@Base 15.07.90
  _ZN5KBlog5GData16fetchedProfileIdERK7QString@Base 15.07.90
  _ZN5KBlog5GData16staticMetaObjectE@Base 15.07.90
@@ -119,10 +119,10 @@ libKF5Blog.so.5 libkf5blog5 #MINVER#
  _ZN5KBlog8BlogPost10setSummaryERK7QString@Base 15.07.90
  _ZN5KBlog8BlogPost13setCategoriesERK11QStringList@Base 15.07.90
  _ZN5KBlog8BlogPost17setCommentAllowedEb@Base 15.07.90
- _ZN5KBlog8BlogPost19setCreationDateTimeERK9QDateTime@Base 4:15.12.0
+ _ZN5KBlog8BlogPost19setCreationDateTimeERK9QDateTime@Base 15.12.0
  _ZN5KBlog8BlogPost19setTrackBackAllowedEb@Base 15.07.90
  _ZN5KBlog8BlogPost20setAdditionalContentERK7QString@Base 15.07.90
- _ZN5KBlog8BlogPost23setModificationDateTimeERK9QDateTime@Base 4:15.12.0
+ _ZN5KBlog8BlogPost23setModificationDateTimeERK9QDateTime@Base 15.12.0
  _ZN5KBlog8BlogPost7setMoodERK7QString@Base 15.07.90
  _ZN5KBlog8BlogPost7setSlugERK7QString@Base 15.07.90
  _ZN5KBlog8BlogPost7setTagsERK11QStringList@Base 15.07.90
