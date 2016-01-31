@@ -50,19 +50,3 @@ Description: client-side support library for web application remote blogging API
  if supported on the server, multimedia files. Almost every modern blogging web
  application that provides an XML data interface supports one of the APIs
  mentioned above.
-
-Package: libkf5blog-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Depends: libkf5blog5 (= ${binary:Version}), ${misc:Depends}
-Description: kblog - debug symbols
- KBlog is a library for calling functions on Blogger 1.0, MetaWeblog,
- MovableType and GData compatible blogs. It calls the APIs using KXmlRpcClient
- and Syndication. It supports asynchronous sending and fetching of posts and,
- if supported on the server, multimedia files. Almost every modern blogging web
- application that provides an XML data interface supports one of the APIs
- mentioned above.
- .
- This package contains the debug symbols.
