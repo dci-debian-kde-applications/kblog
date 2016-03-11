@@ -4,6 +4,12 @@ kblog (4:15.12.2-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 21:01:04 -0800
 
+kblog (4:15.12.1-0ubuntu2) xenial; urgency=medium
+
+  * Add epoch to kcalcore build dep. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 17:54:47 -0800
+
 kblog (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   * New upstream release.
