@@ -1,10 +1,12 @@
-kblog (15.12.0-2~1.gbpd225f0) UNRELEASED; urgency=medium
+kblog (16.04.0-1~1.gbpe1dfb7) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d225f04779a63ee382b6de80292288ee1bc3b128 **
+  ** SNAPSHOT build @e1dfb7729982e95c162993a3800603e85c3bd0b2 **
 
   * Bump Standards-Version to 3.9.8
+  * Add a .gitattributes file to use dpkg-mergechangelogs
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:54:21 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 00:52:11 +0200
 
 kblog (15.12.0-1) experimental; urgency=medium
 
