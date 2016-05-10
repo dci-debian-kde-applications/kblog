@@ -1,6 +1,6 @@
-kblog (16.04.0-1~2.gbpe109f8) UNRELEASED; urgency=medium
+kblog (16.04.1-1~1.gbp67dbd6) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @e109f8bb6dbb721627ed8884dad07ad7f9cedb97 **
+  ** SNAPSHOT build @67dbd662a1e6cc8c84d54ac033a09098e0b03be1 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @e1dfb7729982e95c162993a3800603e85c3bd0b2 **
@@ -14,8 +14,9 @@ kblog (16.04.0-1~2.gbpe109f8) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update install files
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 26 Apr 2016 20:12:50 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 00:52:15 +0200
 
 kblog (15.12.0-1) experimental; urgency=medium
 
