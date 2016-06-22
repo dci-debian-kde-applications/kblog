@@ -1,10 +1,8 @@
-kblog (16.04.2-1~1.gbp4f346c) UNRELEASED; urgency=medium
+kblog (16.04.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @4f346cb3381de135b01f114b0b74bb21478f29b8 **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 00:52:23 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 21:49:57 +0200
 
 kblog (16.04.1-1) unstable; urgency=medium
 
