@@ -1,3 +1,11 @@
+kblog (16.04.3-1~1.gbp5a8a90) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @5a8a906dbfbb793577d7d129a0f696b6f996db3b **
+
+  * Update symbols files from buildds logs (16.04.2-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Jul 2016 00:52:21 +0200
+
 kblog (16.04.2-1) unstable; urgency=medium
 
   * New upstream release.
