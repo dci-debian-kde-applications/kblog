@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.12.0 amd64
+# SymbolsHelper-Confirmed: 16.04.2 armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc
 libKF5Blog.so.5 libkf5blog5 #MINVER#
  _ZN5KBlog10MetaWeblog11createMediaEPNS_9BlogMediaE@Base 15.07.90
  _ZN5KBlog10MetaWeblog11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
@@ -232,6 +232,7 @@ libKF5Blog.so.5 libkf5blog5 #MINVER#
  _ZNK5KBlog9BlogMedia5errorEv@Base 15.07.90
  _ZNK5KBlog9BlogMedia6statusEv@Base 15.07.90
  _ZNK5KBlog9BlogMedia8mimetypeEv@Base 15.07.90
+ (optional=templinst)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 16.04.2
  _ZTIN5KBlog10MetaWeblogE@Base 15.07.90
  _ZTIN5KBlog11BlogCommentE@Base 15.07.90
  _ZTIN5KBlog11MovableTypeE@Base 15.07.90
