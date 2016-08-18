@@ -1,11 +1,12 @@
-kblog (16.04.3-1~2.gbpcf1c95) UNRELEASED; urgency=medium
+kblog (16.08.0-1~1.gbpdb6a3a) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @cf1c95e5e8c8f8da37a1947004ce88da59986be3 **
+  ** SNAPSHOT build @db6a3a960a26c03a8b8c6008d02c2d8147269cc2 **
 
   * Update symbols files from buildds logs (16.04.2-1).
   * Update symbols files
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 16 Jul 2016 17:00:45 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 00:52:11 +0200
 
 kblog (16.04.2-1) unstable; urgency=medium
 
