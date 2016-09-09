@@ -7,11 +7,11 @@ Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.23.0~),
                kio-dev (>= 5.23.0~),
-               libkf5calendarcore-dev (>= 5.3.0~),
+               libkf5calendarcore-dev (>= 5.3.1~),
                libkf5coreaddons-dev (>= 5.23.0~),
                libkf5kdelibs4support-dev (>= 5.12.0~),
-               libkf5syndication-dev (>= 5.3.0~),
-               libkf5xmlrpcclient-dev (>= 5.3.0~),
+               libkf5syndication-dev (>= 5.3.1~),
+               libkf5xmlrpcclient-dev (>= 5.3.1~),
                libqt5webkit5-dev (>= 5.4.0~),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev
@@ -25,9 +25,9 @@ Section: libdevel
 Architecture: any
 Multi-Arch: foreign
 Depends: libkf5blog5 (= ${binary:Version}),
-         libkf5calendarcore-dev (>= 5.3.0~),
+         libkf5calendarcore-dev (>= 5.3.1~),
          libkf5kdelibs4support-dev (>= 5.12.0~),
-         libkf5syndication-dev (>= 5.3.0~),
+         libkf5syndication-dev (>= 5.3.1~),
          ${misc:Depends}
 Description: kblog - development files
  KBlog is a library for calling functions on Blogger 1.0, MetaWeblog,
