@@ -43,6 +43,8 @@ Package: libkf5blog5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: client-side support library for web application remote blogging APIs
  KBlog is a library for calling functions on Blogger 1.0, MetaWeblog,
  MovableType and GData compatible blogs. It calls the APIs using KXmlRpcClient
