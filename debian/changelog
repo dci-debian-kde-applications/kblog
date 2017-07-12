@@ -1,3 +1,9 @@
+kblog (4:17.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:19:28 +0000
+
 kblog (4:17.04.2-0neon) xenial; urgency=medium
 
   * New release
