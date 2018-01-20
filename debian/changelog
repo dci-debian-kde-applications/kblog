@@ -3,6 +3,9 @@ kblog (4:17.08.3-2) UNRELEASED; urgency=medium
   [ Sandro Knauß ]
   * mark libkf5blog-dev as Multi-Arch: same
 
+  [ Pino Toscano ]
+  * Bump Standards-Version to 4.1.3, no changes required.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Dec 2017 22:11:06 +0100
 
 kblog (4:17.08.3-1) unstable; urgency=medium
